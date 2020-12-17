@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+  }
+
+  ul{
+    margin-bottom: 0px;
+  }
+
+
+
+#nav_header{
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
+  box-shadow: 0px 0px 3px 1px rgba(204,204,204,1);
+  border-bottom:solid 1px;
+  border-color:rgb(230, 230, 230);
+  position: sticky;
+  top: 0px;background-color: white;
+  z-index:20000;
+}
+a:hover {
+  color: white;
+}
+body {
+
+  background: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6))/*, url("../img/logo.png")*/;
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+#wrapper  {
+  max-width:70%;
+  margin: 0 auto;
+}
+
+#tarea{
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+#td_tarea:hover{
+  background-color: #fd7e14;
+}
+
+#wrapper_agregar{
+  width: 70%;
+  text-align:center;
+}
+
+#agregar_nota{
+  position:relative;
+  left:18%;
+}
+
+.sidebar p {
+  color: white;
+}
+
+
+
+/* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE */
+/* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE */
+/* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE */
+/* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE */
+/* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE */
+/* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE *//* ESTILOS PARA MOBILE */
+
+#wrapper_mobile  {
+  max-width:90%;
+  margin: 0 auto;
+}
+
+.container_tarea{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 2px solid grey;
+  width: 92%;
+  max-width: 1500px;
+  margin-top: 30px;
+  margin-bottom: 40px
+}
+
+.card_tarea{
+  margin: 20px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  /*display: none;*/
+}
+
+.container_tarea .card_tarea .card_tarea_data a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  text-decoration: none;
+  color: white;
+  /*background-color: rgb(190, 190, 190);*/
+  margin-top: 23px;
+  background: linear-gradient(rgb(175, 175, 175),rgb(120, 120, 120));
+  border-radius: 6px;
+}
+
+.container_tarea .card_tarea .card_tarea_data a:hover{
+  /*background-color: rgb(170, 170, 170)*/
+  /*background: linear-gradient(rgb(94, 90, 180), rgb(124, 113, 230)); /*rgb(86, 205, 134) rgb(85, 87, 160), rgb(144, 133, 240)*/
+  background: linear-gradient(rgb(164, 153, 260), rgb(95, 90, 170))
+}
+
+.card_tarea_image ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style-type: none;
+  margin: 15px 0px 0px 0px;
+  padding: 0px
+}
+
+.card_tarea_image ul li {
+  float: left;
+}
+
+.card_tarea_image img {
+  border-radius: 300px;
+  width: 90%
+}
+
+.card_tarea_image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* FIN CARDS*/
+
+@media only screen and (min-width: 1200px){
+
+.container_tarea{
+  width: 85%
+}
+
+.card-data{
+  position: relative;
+}
+
+.card-data a {
+  position: absolute;
+  bottom: 0px
+}
+
+
+
+}
+
+@media only screen and (max-width: 1200px){
+
+  /*nav{
+    display: none;
+  }
+
+  .h1ynav{
+    justify-content: center;
+  }*/
+
+table {
+  /*display: none;*/
+}
+
+.card_tarea{
+  display: block;
+}
+
+  #redes_fixed{
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 900px){
+
+  table {
+   /*display: none;*/
+  }
+
+  .card_tarea{
+    display: block;
+  }
+
+}
+
+
+@media only screen and (max-width: 776px){
+
+  table {
+    /*display: none;*/
+  }
+
+  .card_tarea{
+    display: block;
+  }
+
+  .h1ynav{
+    justify-content: center;
+  }
+
+
+}
